@@ -8,20 +8,20 @@ on:
     types: [created]
 
 jobs:
-  build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        #    Loonux sevoor   Seven Eleven     These two are for grandma
-        os: [ubuntu-latest, windows-latest, windows-2016, macos-latest]
+  # build:
+  #   runs-on: ${{ matrix.os }}
+  #   strategy:
+  #     matrix:
+  #       #    Loonux sevoor   Seven Eleven     These two are for grandma
+  #       os: [ubuntu-latest, windows-latest, windows-2016, macos-latest]
 
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - run: npm ci
-      - run: npm test
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 16
+  #     - run: npm ci
+  #     - run: npm test
 
   publish-npm:
     needs: build
