@@ -1,0 +1,25 @@
+{
+  "name": "grepper-cli",
+  "version": "0.1.0",
+  "description": "Unoffical CLI for codegrepper.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [
+    "grepper",
+    "cli",
+    "cheat-sheet",
+    "code-grepper",
+    "code",
+    "stackoverflow-cli-but-worse-kinda-idk"
+  ],
+  "author": "Dan-Gamin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0"
+  }
+}
