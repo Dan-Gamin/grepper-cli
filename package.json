@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "node index"
+    "test": "node ."
   },
   "keywords": [
     "grepper",
@@ -15,11 +15,20 @@
     "code",
     "stackoverflow-cli-but-worse-kinda-idk"
   ],
-  "author": "Dan-Gamin",
+  "bin": "./src/index.js",
+  "author": "@dan-Gamin",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
     "chalk": "^5.0.1",
     "commander": "^9.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dan-Gamin/grepper-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dan-Gamin/grepper-cli/issues"
+  },
+  "homepage": "https://github.com/Dan-Gamin/grepper-cli"
 }
