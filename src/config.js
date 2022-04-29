@@ -1,7 +1,11 @@
 import chalk from "chalk";
+import path from "path";
+import { fileURLToPath } from "url";
 
 export const searchQuery = (query) =>
   `https://www.codegrepper.com/api/search.php?q=${encodeURI(query)}`;
+
+export const projRoot = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
 export const parseLanguage = (input) =>
   input

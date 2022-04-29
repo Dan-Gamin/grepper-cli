@@ -1,6 +1,6 @@
 {
   "name": "grepper-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unoffical CLI for codegrepper.",
   "main": "src/index.js",
   "type": "module",
@@ -15,7 +15,9 @@
     "code",
     "stackoverflow-cli-but-worse-kinda-idk"
   ],
-  "bin": "./src/index.js",
+  "bin": {
+    "grepper": "./src/index.js"
+  },
   "author": "@dan-Gamin",
   "license": "ISC",
   "dependencies": {

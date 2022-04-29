@@ -16,7 +16,7 @@ export const javascript = (str) => {
         (c) => chalk.magentaBright(c)
       )
       .replace(/["'`](.*?)["'`]/g, (c) => chalk.green(c)) // strings
-      .replace(/\/\/ .*/gs, (c) => chalk.gray.italic(c)) // coments
+      .replace(/\/\/.*/gs, (c) => chalk.gray.italic(c)) // coments
   );
   // .replace(//g, (c) => chalk.cyan(c));
 };
