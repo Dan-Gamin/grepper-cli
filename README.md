@@ -1,15 +1,15 @@
 <!-- Header -->
 
 <h1 align="center">grepper-cli</h1>
-<div align = 'center'>
+<div align="center">
     <a href = 'https://github.com/Dan-Gamin/grepper-cli/issues'>
-        <img src = 'https://img.shields.io/github/issues/Dan-Gamin/grepper-cli'/>
+        <img src="https://img.shields.io/github/issues/Dan-Gamin/grepper-cli?label=Issues"/>
     </a>
-    <a href = 'https://github.com/Dan-Gamin/grepper-cli/pulls'>
-        <img src = 'https://img.shields.io/github/issues-pr/Dan-Gamin/grepper-cli'/>
+    <a href="https://github.com/Dan-Gamin/grepper-cli/pulls">
+        <img src="https://img.shields.io/github/issues-pr/Dan-Gamin/grepper-cli?label=Pull%20Requests"/>
     </a>
-    <a href = 'https://github.com/Dan-Gamin/grepper-cli/releases'>
-        <img src = 'https://img.shields.io/github/v/release/Dan-Gamin/grepper-cli?include_prereleases&label=Latest%20Release'/>
+    <a href="https://github.com/Dan-Gamin/grepper-cli/releases">
+        <img src="https://img.shields.io/github/v/release/Dan-Gamin/grepper-cli?include_prereleases&label=Release"/>
     </a>
     <!-- Github actions badges could be generated. -->
 </div>
@@ -29,6 +29,7 @@ An unoffical CLI for [codegrepper](https://www.codegrepper.com/).
 - [✨ Features](#-features)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Example Usage](#example-usage)
   - [Options](#options)
   - [Commands](#commands)
     - [search|s &lt;query&gt; [options]](#searchs-query-options)
@@ -73,6 +74,35 @@ This will allow you to use **codegrepper-cli** like a normal terminal command.
 
 ```ps
 grepper [command] [options]
+```
+
+### Example Usage
+
+Let's say we want to know how to reverse an array in javascript.
+
+```ps
+grepper search "reverse array" --language js --amount 1
+```
+
+We can search the term **"reverse array"** we get a lot of diffrent ways to reverse an array in various languages.
+
+By using the `--language` option we can set the language filter to `js` (short for javascript).
+
+Finally, we limit the amount of results to 1, so we only get the top answer.
+
+Here is the final result:
+
+```txt
+Showing 1/10 results for "reverse array":
+
+Javascript answer with 57 Upvotes. (Posted on 16/11/2019)
+```
+
+```js
+var arr = [34, 234, 567, 4];
+print(arr);
+var new_arr = arr.reverse();
+print(new_arr);
 ```
 
 ### Options
