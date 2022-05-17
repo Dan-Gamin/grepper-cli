@@ -1,6 +1,6 @@
 <!-- Header -->
 
-<h1 align="center">grepper-cli</h1>
+<h1 align="center">grepper-cli (DISCONTINUED)</h1>
 <div align="center">
     <a href = 'https://github.com/Dan-Gamin/grepper-cli/issues'>
         <img src="https://img.shields.io/github/issues/Dan-Gamin/grepper-cli?label=Issues"/>
@@ -16,6 +16,9 @@
 <br>
 
 <!-- Content -->
+
+# PROJECT DISCONTINUED
+go home
 
 An unoffical CLI for [codegrepper](https://www.codegrepper.com/).
 
@@ -33,7 +36,6 @@ An unoffical CLI for [codegrepper](https://www.codegrepper.com/).
   - [Options](#options)
   - [Commands](#commands)
     - [search|s &lt;query&gt; [options]](#searchs-query-options)
-
 ## ✨ Features
 
 <!-- For planned features:
@@ -47,12 +49,12 @@ An unoffical CLI for [codegrepper](https://www.codegrepper.com/).
   - Specificable amount of results
   - Raw JSON results from the API, because
 
-- _📝 **Planned**:_ 👨‍💻 _Snippet Creation (Authentication Required)_
+<!-- - _📝 **Planned**:_ 👨‍💻 _Snippet Creation (Authentication Required)_
   - _Use your favorite code editor. (Such as VSCode, Vim, etc.)_
   - _Help others (maybe even yourself in the future) quickly_
 - _📝 **Planned**:_ 👍👎 _Snippet Rating (Authentication Required)_
   - _Get the most useful answers to the top!_
-- **Want even _more_? Maybe make an issue at [github](https://github.com/Dan-Gamin/grepper-cli/issues).**
+- **Want even _more_? Maybe make an issue at [github](https://github.com/Dan-Gamin/grepper-cli/issues).** -->
 
 ## Installation
 
@@ -61,14 +63,15 @@ An unoffical CLI for [codegrepper](https://www.codegrepper.com/).
 ```cmd
 npx grepper-cli
 ``` -->
+Project Discontinued, go home.
 
-It's recommended to Install **codegrepper-cli** globally.
+<!-- It's recommended to Install **codegrepper-cli** globally.
 
 ```cmd
 npm i -g grepper-cli
 ```
 
-This will allow you to use **codegrepper-cli** like a normal terminal command.
+This will allow you to use **codegrepper-cli** like a normal terminal command. -->
 
 ## Usage
 
